@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ozigi Yakubu Halilu — Web3 explorer focused on blockchain, airdrop communities, learning and community building.">
+  <title>Ozigi Yakubu Halilu | Web3 Explorer</title>
+  <style>
+    :root {
+      --bg: #070a12;
+      --card: #0d1220;
+      --text: #f4f7fb;
+      --muted: #9aa7ba;
+      --line: rgba(255,255,255,.10);
+      --accent: #7c5cff;
+      --accent2: #19d3ae;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background:
+        radial-gradient(circle at 85% 10%, rgba(124,92,255,.18), transparent 28%),
+        radial-gradient(circle at 10% 40%, rgba(25,211,174,.10), transparent 24%),
+        var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    a { color: inherit; text-decoration: none; }
+    .container { width: min(1080px, 92%); margin: auto; }
+    nav {
+      display:flex; justify-content:space-between; align-items:center;
+      padding: 22px 0; position:sticky; top:0; z-index:10;
+      backdrop-filter: blur(14px);
+      background: rgba(7,10,18,.72);
+      border-bottom: 1px solid var(--line);
+    }
+    .brand { font-weight:800; letter-spacing:.02em; }
+    .brand span { color: var(--accent2); }
+    .navlinks { display:flex; gap:22px; color:var(--muted); font-size:.94rem; }
+    .navlinks a:hover { color:var(--text); }
+    .hero { padding: 110px 0 85px; text-align:center; }
+    .badge {
+      display:inline-block; padding:7px 12px; border:1px solid var(--line);
+      border-radius:999px; color:#cbd4e2; background:rgba(255,255,255,.03);
+      font-size:.88rem;
+    }
+    h1 { font-size:clamp(2.5rem, 7vw, 5.4rem); line-height:1.02; margin:22px 0 18px; letter-spacing:-.045em; }
+    .gradient { background:linear-gradient(90deg, #fff, #b9b0ff, #7ff2da); -webkit-background-clip:text; background-clip:text; color:transparent; }
+    .hero p { max-width:690px; margin:0 auto; color:var(--muted); font-size:1.12rem; }
+    .buttons { display:flex; justify-content:center; gap:12px; flex-wrap:wrap; margin-top:30px; }
+    .btn {
+      padding:12px 18px; border-radius:12px; border:1px solid var(--line);
+      background:var(--card); font-weight:700;
+    }
+    .btn.primary { background:var(--accent); border-color:transparent; }
+    .btn:hover { transform:translateY(-1px); }
+    section { padding: 72px 0; }
+    .section-title { font-size:2rem; margin:0 0 10px; }
+    .section-sub { color:var(--muted); margin:0 0 28px; }
+    .grid { display:grid; grid-template-columns:repeat(3,1fr); gap:16px; }
+    .card {
+      background:linear-gradient(180deg, rgba(255,255,255,.045), rgba(255,255,255,.02));
+      border:1px solid var(--line); border-radius:18px; padding:24px;
+    }
+    .card h3 { margin-top:0; }
+    .card p { color:var(--muted); margin-bottom:0; }
+    .chips { display:flex; flex-wrap:wrap; gap:10px; }
+    .chip { border:1px solid var(--line); background:rgba(255,255,255,.03); padding:9px 12px; border-radius:999px; color:#d9e0ea; }
+    .timeline { display:grid; gap:14px; }
+    .step { display:flex; gap:16px; align-items:flex-start; }
+    .dot { width:12px; height:12px; border-radius:50%; background:var(--accent2); margin-top:8px; flex:0 0 12px; box-shadow:0 0 18px rgba(25,211,174,.45); }
+    .step h3 { margin:0; }
+    .step p { margin:4px 0 0; color:var(--muted); }
+    .connect { text-align:center; }
+    footer { padding:28px 0 40px; color:var(--muted); text-align:center; border-top:1px solid var(--line); }
+    .small { font-size:.9rem; }
+    @media (max-width: 760px) {
+      .navlinks { display:none; }
+      .hero { padding-top:80px; }
+      .grid { grid-template-columns:1fr; }
+      section { padding:55px 0; }
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="container" style="display:flex;justify-content:space-between;align-items:center;width:92%;">
+      <a class="brand" href="#">OZIGI<span>.</span></a>
+      <div class="navlinks">
+        <a href="#about">About</a>
+        <a href="#interests">Interests</a>
+        <a href="#journey">Journey</a>
+        <a href="#connect">Connect</a>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <header class="hero container">
+      <div class="badge">🇳🇬 Nigeria · Web3 Explorer</div>
+      <h1><span class="gradient">Ozigi Yakubu Halilu</span></h1>
+      <p>Exploring Web3, blockchain technology and airdrop communities — learning, connecting, contributing and growing one step at a time.</p>
+      <div class="buttons">
+        <a class="btn primary" href="https://x.com/olinkstiyc" target="_blank" rel="noopener">Follow on X ↗</a>
+        <a class="btn" href="#about">Explore my journey</a>
+      </div>
+    </header>
+
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <p class="section-sub">A simple introduction to my Web3 journey.</p>
+        <div class="card">
+          <p>
+            I’m Ozigi Yakubu Halilu, a Web3 explorer from Nigeria. I’m currently learning more about
+            blockchain and decentralized technology while participating in Web3 and airdrop communities.
+            My goal is to build useful knowledge, connect with people in the ecosystem, contribute where I can,
+            and keep improving along the way.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="interests">
+      <div class="container">
+        <h2 class="section-title">Interests</h2>
+        <p class="section-sub">Areas I’m currently exploring.</p>
+        <div class="chips">
+          <span class="chip">🌐 Web3</span>
+          <span class="chip">⛓️ Blockchain</span>
+          <span class="chip">🪂 Airdrop Communities</span>
+          <span class="chip">🤝 Web3 Communities</span>
+          <span class="chip">📚 Blockchain Learning</span>
+          <span class="chip">🚀 Emerging Projects</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="journey">
+      <div class="container">
+        <h2 class="section-title">My Web3 Journey</h2>
+        <p class="section-sub">Learning first, building experience over time.</p>
+        <div class="timeline">
+          <div class="card step">
+            <div class="dot"></div>
+            <div>
+              <h3>Explore</h3>
+              <p>Discovering blockchain concepts, Web3 products and the wider decentralized ecosystem.</p>
+            </div>
+          </div>
+          <div class="card step">
+            <div class="dot"></div>
+            <div>
+              <h3>Participate</h3>
+              <p>Taking part in Web3 and airdrop communities, following projects and learning from community members.</p>
+            </div>
+          </div>
+          <div class="card step">
+            <div class="dot"></div>
+            <div>
+              <h3>Contribute</h3>
+              <p>Looking for genuine ways to add value, collaborate and build practical experience.</p>
+            </div>
+          </div>
+          <div class="card step">
+            <div class="dot"></div>
+            <div>
+              <h3>Grow</h3>
+              <p>Continuing to learn and gradually building a stronger Web3 portfolio and network.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="connect" class="connect">
+      <div class="container">
+        <h2 class="section-title">Let’s Connect</h2>
+        <p class="section-sub">Follow along as I learn and grow in Web3.</p>
+        <a class="btn primary" href="https://x.com/olinkstiyc" target="_blank" rel="noopener">@olinkstiyc on X ↗</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div>© 2026 Ozigi Yakubu Halilu</div>
+      <div class="small">Built as a simple Web3 personal portfolio.</div>
+    </div>
+  </footer>
+</body>
+</html>
